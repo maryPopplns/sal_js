@@ -1,0 +1,11 @@
+{
+  "name": "sal_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:maryPopplns/sal_js.git",
+  "author": "Spencer Knight <spencer.knightusn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "git": "git add . && git commit && git push origin $(git rev-parse --abbrev-ref HEAD) && echo '\n' && echo $(tput setaf 2)'committed: ' $(tput setaf 1)$(date) && echo '\n'"
+  }
+}
